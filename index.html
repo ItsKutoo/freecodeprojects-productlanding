@@ -5,26 +5,110 @@
     <title>Product Landing Page</title>
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1">
 <meta charset=“UTF-8>
-    
-    <link href="https://fonts.googleapis.com/css2?family=Russo+One&display=swap" rel="stylesheet">
-
-    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@500&display=swap" rel="stylesheet">
-
-    <link rel="stylesheet" type="text/css" href=“stylesheet.css">
+<script src="https://kit.fontawesome.com/27c700aad0.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" type="text/css" href="stylesheet.css">
 
 </head>
 <body>
+     <!--Wrapper Begins-->
+    <div class="wrapper">
+        <header id="header">Custom Guitars
+           
+           <!--Navigation-->
 
-    <div class="main-container">
-        <header id="page-header">Custom Guitars</header>
-        <img id="header-img" src="guitarimg.jpeg" alt="a picture of a guitar">
-        <h3 id="title"> Small team, quality Guitars.</h3>
+            <nav class="main-nav">
+               <ul id="nav-bar">
+                 <li><a target="_blank" href="#features" class="nav-link">Features</a></li>
+                 <li><a target="_blank" href="#About" class="nav-link">About</a></li>
+                 <li><a target="_blank" href="#prices" class="nav-link">Prices</a></li>
+               </ul>
+              </nav>
+            <img id="header-img" src="guitarimg.jpeg" alt="a picture of a guitar">
+             <h3 id="title"> Small team, quality Guitars.</h3>
+        </header>
+       
+        <!--Top Container-->
 
-        <ul id="navigation">
-            <li><a target="_blank" href="#features">Features</a></li>
-            <li><a target="_blank" href="#how_we_work">How We Work</a></li>
-            <li><a target="_blank" href="#prices">Prices</a></li>
-        </ul>
+       <section class="top-container">
+        <header class="showcase">
+            <h1>Header 1</h1>
+            <p>Paragraph</p>
+            <a href="#" class="btn">Read More</a>
+        </header>
+        <div class="top-box top-box a">
+            <h4>Buy Now</h4>
+            <p class="price">€300</p>
+            <a href="#" class="btn">Buy Now</a>
+        </div>
+
+        <div class="top-box top-box b">
+            <h4>Buy Now</h4>
+            <p class="price">€600</p>
+            <a href="#" class="btn">Buy Now</a>
+        </div>
+       </section>
+
+     <!--Boxes Section-->
+      <section class="boxes">
+        <div class="box">
+            <i class="fa-solid fa-guitar fa-4x"></i> 
+            <!-- fa-4x, means it makes the pic 4 times the size it originally was-->
+          <h3>Header</h3>
+          <p>Paragraph</p>
+        </div>
+       
+        <div class="box">
+            <i class="fa-solid fa-drum fa-4x"></i>
+            <!-- fa-4x, means it makes the pic 4 times the size it originally was-->
+          <h3>Header</h3>
+          <p>Paragraph</p>
+        </div>
+       
+        <div class="box">
+            <i class="fa-solid fa-truck-fast fa-4x"></i> 
+            <!-- fa-4x, means it makes the pic 4 times the size it originally was-->
+          <h3>Header</h3>
+          <p>Paragraph</p>
+        </div>
+      
+        <div class="box">
+            <i class="fa-solid fa-gear fa-4x"></i>
+            <!-- fa-4x, means it makes the pic 4 times the size it originally was-->
+          <h3>Header</h3>
+          <p>Paragraph</p>
+        </div>
+
+        <div class="box">
+            <i class="fa-solid fa-thumbs-up fa-4x"></i>
+            <!-- fa-4x, means it makes the pic 4 times the size it originally was-->
+          <h3>Header</h3>
+          <p>Paragraph</p>
+        </div>
+     </section>
+
+     <!--Info Section-->
+    
+     <section class="info">
+        <img src="Intrument.jpeg" alt="">
+        <div>
+            <h2>Header 2</h2>
+            <p>Paragraph</p>
+            <a href="#" class="btn">Learn More</a>
+        </div>
+     </section>
+
+     <!--Footer-->
+     <footer>
+        <p>Home Music &copy; 2024</p>
+     </footer>
+        
+      
+      <form id="form">
+            <input id="email" placeholder="email"> 
+            <input id="submit" submit="https://www.freecodecamp.com/email-submit">
+        </form>
+    
     </div>
+    <!-- Wrapper Ends -->
 </body>
 </html>
