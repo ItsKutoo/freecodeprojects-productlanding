@@ -96,23 +96,25 @@
             <a href="#" class="btn">Learn More</a>
         </div>
      </section>
-
-     <!--Footer-->
-     <footer>
-        <p>Home Music &copy; 2024</p>
-     </footer>
         
-      
-      <form id="form">
+     <!--Form-->
+    <div class="contact-form">
+      <form action="submit_form" method="post">
+           
             <h3 id="contact-us" class="contact-us">Contact Us</h3>
-            <input id="email" placeholder="email"> 
-            <input id="submit" submit="https://www.freecodecamp.com/email-submit">
-
-            <div id="submit-form">
-              <button>Send</button>
-             </div>
+            <input id="name" placeholder="name" required>
+            <input id="email" placeholder="email" required> 
+            <textarea id="feedback" row="30" cols="21"></textarea>
+            <input class="submit" type="submit" value="submit" id="submit-form">
+          
         </form>
-    
+      </div>
+  
+      <!--Footer-->
+   <footer>
+    <p>Home Music &copy; 2024</p>
+ </footer>
+
     </div>
     <!-- Wrapper Ends -->
 </body>
