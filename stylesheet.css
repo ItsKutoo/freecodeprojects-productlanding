@@ -10,6 +10,7 @@
     padding: 0;
     margin: 0;
     color: brown;
+    text-decoration: underline;
 }
 
 #header-img {
@@ -19,16 +20,14 @@
 }
 
 header {
-    color: aqua;
+    color: brown;
 }
 
 #p-id, #h1-id {
       background: rgba(39, 36, 36, 0.8);
 }
 
-h1, p {
 
-}
 
 html {
     box-sizing: border-box;
@@ -181,6 +180,18 @@ footer {
     text-align: center;
     padding: 1rem;
 }
+
+#submit-form{
+    text-align: center;
+}
+
+button {
+    background-color: #047fca;
+    padding: 15px 40px;
+    color: white;
+    border-radius: 50px;
+}
+
 
 /* Media Queries*/
 @media (max-width: 700px) {
