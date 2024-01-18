@@ -7,14 +7,22 @@
 <meta charset=“UTF-8>
 <script src="https://kit.fontawesome.com/27c700aad0.js" crossorigin="anonymous"></script>
   <link rel="stylesheet" type="text/css" href="stylesheet.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bitter&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bitter&family=Nunito:ital,wght@1,300&display=swap" rel="stylesheet">
 
 </head>
 <body>
      <!--Wrapper Begins-->
     <div class="wrapper">
         <header id="header">
-          <h1 class="header-main">Home Music Customs</h1>
-          <img id="header-img" src="guitarimg.jpeg" alt="a picture of a guitar">
+          <div id="top-img">
+          <img id="header-img" src="guitarimg.jpeg" alt="picture of a guitar" style="display: inline;">
+          <h1 class="header-main" style="display: inline;">Home Music Customs</h1>
+            </div>
            <!--Navigation-->
 
             <nav class="main-nav">
@@ -104,7 +112,7 @@
             <h3 id="contact-us" class="contact-us">Contact Us</h3>
             <input id="name" placeholder="name" required>
             <input id="email" placeholder="email" required> 
-            <textarea id="feedback" row="30" cols="21"></textarea>
+            <textarea id="feedback" row="30" cols="21" placeholder="Enter Text Here..."></textarea>
             <input class="submit" type="submit" value="submit" id="submit-form">
           
         </form>
