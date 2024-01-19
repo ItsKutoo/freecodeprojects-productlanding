@@ -243,13 +243,19 @@ footer {
     position: relative;
     bottom: 0%;
     transform: translate(-50%, -50%);
-    
+    margin: 0 auto;
+    max-width: 100%;
+}
+
+form {
+    margin: 0 auto;
+    max-width: 100%;
 }
 
 #contact-us {
     text-align: center;
     font-size: 2rem;
-    margin-left: -3rem;
+    margin-left: -0.9rem;
 }
 .contact-form input {
     width: 100%;
@@ -278,7 +284,7 @@ footer {
      border: 1px solid #000;
      outline: 0;
 }
-.contact-form #submit-form {
+.contact-form #submit{
      border: 0;
      padding: 10px 30px;
      background: var(--primary);
@@ -288,17 +294,11 @@ footer {
      box-shadow: var(--shadow);
 }
 
-.contact-form #submit-form:hover {
+.contact-form #submit:hover{
     background-color: var(--dark);
     color: #fff;
 }
 
-.contact-form {
-    max-width: 100%;
-    margin: auto;
-    position: relative;
-    
-}
 
 
 
