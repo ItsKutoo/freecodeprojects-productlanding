@@ -1,48 +1,51 @@
 
 <!DOCTYPE html>
-<html lang=“en”>
+<html lang="en">
 <head>
     <title>Product Landing Page</title>
-    
-    <!--Navigation-->
 
-    <nav class="main-nav" id="nav-bar">
-      <ul id="nav-bar">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="UTF-8">
+     <script src="https://kit.fontawesome.com/27c700aad0.js" crossorigin="anonymous"></script>
+      <link rel="stylesheet" type="text/css" href="stylesheet.css">
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Bitter&display=swap" rel="stylesheet">
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Bitter&family=Nunito:ital,wght@1,300&display=swap" rel="stylesheet">
+      </head>
+    <body>
+      <!--Wrapper Begins-->
+     <div id="wrapper">
+         <div data-scroll-watcher></div>
+         <header class="primary-header">
+           <div class="top-img">
+           <img class="header-img" src="guitarimg.jpeg" alt="picture of a guitar">
+           <h1 class="header-main">Home Music Customs</h1>
+      </div>
+         
+    <!--Navigation-->
+   <div class="main-nav">
+    <nav id="nav-bar">
+      <ul>
         <li><a href="#features" class="nav-link">Features</a></li>
         <li><a href="#h1-id" class="nav-link">About</a></li>
         <li><a href="#contact-us" class="nav-link">Contact Us</a></li>
       </ul>
      </nav>
+    </div>
+     </header>
      <!--Navigation Ends-->
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1">
-<meta charset=“UTF-8>
-<script src="https://kit.fontawesome.com/27c700aad0.js" crossorigin="anonymous"></script>
-  <link rel="stylesheet" type="text/css" href="stylesheet.css">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Bitter&display=swap" rel="stylesheet">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Bitter&family=Nunito:ital,wght@1,300&display=swap" rel="stylesheet">
 
-</head>
-<body>
-     <!--Wrapper Begins-->
-    <div class="wrapper">
-        <header id="header">
-          <div id="top-img">
-          <img id="header-img" src="guitarimg.jpeg" alt="picture of a guitar" style="display: inline;">
-          <h1 class="header-main" style="display: inline;">Home Music Customs</h1>
-     </div>
-     <h3 id="title"> Small team, quality Intruments.</h3>
-        </header>
+     <h3>Small team, Quality Intruments.</h3>
        
         <!--Top Container-->
 
-       <section class="top-container">
+       <section id="top-container">
         <header class="showcase">
-            <h1 id="h1-id" class="h1-id">Who We Are</h1>
-            <p id="p-id">We're a small at home team dedicated to making affordable, custom, quality Intruments.</p>
+            <h1 class="h1-id">Who We Are</h1>
+            <p class="p-id">We're a small at home team dedicated to making affordable, custom, quality Intruments.</p>
             <a href="#" class="btn">Read More</a>
         </header>
         <div class="top-box top-box a">
@@ -100,7 +103,7 @@
     
      <section class="info">
         <div>
-        </iframe id="video" src="https://www.pexels.com/video/person-playing-a-guitar-853767/">"video"</id>
+        </iframe id="video" width="560" height="315" src="https://www.pexels.com/video/person-playing-a-guitar-853767/"></id>
             <h2 id="features" class="features">See Our Intruments In Action</h2>
             <p>Click below to see the lowest priced, quality intruments in the country.</p>
             <a href="#" class="btn">Learn More</a>
@@ -113,7 +116,7 @@
            
             <h3 id="contact-us" class="contact-us">Contact Us</h3>
             <input id="name" placeholder="name" required>
-            <input id="email" placeholder="email" type="email"> 
+            <input id="email" placeholder="email" name="email" type="email"> 
             <textarea id="feedback" row="30" cols="21" placeholder="Enter Text Here..."></textarea>
             <input class="submit" type="submit" value="submit" id="submit">
           
