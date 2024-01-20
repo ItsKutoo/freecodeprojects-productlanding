@@ -33,7 +33,6 @@
     font-size: 1rem;
     display: flex;
     flex-direction: row;
-    position: sticky;
     top: 0;
     transition: background-color 500ms;
 }
@@ -64,7 +63,7 @@ html {
 
 body{
     background: #ccc;
-    margin: 30px 50px;
+    margin: 0;
     line-height: 1.4;
     position: relative;
 }
@@ -252,12 +251,13 @@ footer {
 
 .contact-form {
     top: 50%;
-    left: 30%;
+    left: 27%;
     position: relative;
     bottom: 0%;
     transform: translate(-50%, -50%);
     margin: 0 auto;
     max-width: 100%;
+    
 }
 
 form {
